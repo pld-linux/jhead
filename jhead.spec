@@ -2,7 +2,7 @@ Summary:	Extracts the EXIF data from image files
 Summary(pl):	Narzêdzie wyci±gaj±ce dane EXIF z plików graficznych
 Name:		jhead
 Version:	2.2
-Release:	3
+Release:	3.1
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.sentex.net/~mwandel/jhead/%{name}-%{version}.tar.gz
@@ -11,12 +11,15 @@ URL:		http://www.sentex.net/~mwandel/jhead/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Jhead extracts the EXIF data from image files which are usually
-associated with Digital Cameras.
-
-%description -l pl
-Jhead pozwala wyci±gn±æ dane EXIF ze zdjêæ zrobionych aparatami
-cyfrowymi.
+Jhead is a command line driven utility for extracting digital camera
+settings from the Exif format files used by many digital cameras. It
+handles the various confusing ways these can be expressed, and
+displays them as F-stop, shutter speed, etc. It is also able to reduce
+the size of digital camera JPEGs without loss of information, by
+deleting integral thumbnails that digital cameras put into the Exif
+header. If you need to add Exif support to a program, this is a simple
+program to cut and paste from. Many projects, including PHP, have
+reused code from this utility.
 
 %prep
 %setup -q
