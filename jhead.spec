@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.sentex.net/~mwandel/jhead/%{name}-%{version}.tar.gz
+# Source0-md5:	f9963dad3fd17ed4dcd7f706d0603213
 URL:		http://www.sentex.net/~mwandel/jhead/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
