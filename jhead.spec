@@ -7,7 +7,7 @@ Version:	%{version}
 Release:	%{release}
 Summary:	Extracts the EXIF data from image files.
 Summary(pl):    Wyci±ga dane EXIF z plików graficznych
-Source0:	http://www.sentex.net/~mwandel/jhead/%{name}-%{version}.tar.bz2
+Source0:	http://www.sentex.net/~mwandel/jhead/%{name}-%{version}.tar.gz
 URL:		http://www.sentex.net/~mwandel/jhead/
 License:	GPL
 Group:		Applications/Graphics
