@@ -21,6 +21,17 @@ header. If you need to add Exif support to a program, this is a simple
 program to cut and paste from. Many projects, including PHP, have
 reused code from this utility.
 
+%description -l pl
+Jhead to sterowane z linii poleceñ narzêdzie do wyci±gania ustawieñ
+aparatu z plików w formacie Exif u¿ywanego przez wiele aparatów
+cyfrowych. Obs³uguje wiele ró¿nych myl±cych sposobów, w jakie mog± byæ
+wyra¿one informacje i wy¶wietla je jako F-stop, szybko¶æ przys³ony
+itp. Umo¿liwia tak¿e zmniejszenie rozmiaru pliku JPEG bez utraty
+informacji poprzez usuwanie miniaturek wstawianych przez aparaty do
+nag³ówka Exif. Jest to tak¿e prosty program, z którego mo¿na przekleiæ
+kod w celu obs³ugi formatu Exif we w³asnym programie. Wiele projektów,
+w tym PHP, u¿y³o kodu z tego narzêdzia.
+
 %prep
 %setup -q
 
@@ -31,9 +42,10 @@ reused code from this utility.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_mandir}/man1
 
 install -D jhead $RPM_BUILD_ROOT%{_bindir}/%{name}
-install -D jhead.1.gz $RPM_BUILD_ROOT%{_mandir}/man1/%{name}.1.gz
+gzip -dc jhead.1.gz >$RPM_BUILD_ROOT%{_mandir}/man1/%{name}.1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
