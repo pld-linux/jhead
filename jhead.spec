@@ -22,7 +22,7 @@ informacje mo¿na znale¶æ na stronie
 http://www.sentex.net/~mwandel/jhead/.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 %{__make} \
