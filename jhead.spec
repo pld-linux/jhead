@@ -2,7 +2,7 @@ Summary:	Extracts the EXIF data from image files
 Summary(pl):	Narzêdzie wyci±gaj±ce dane EXIF z plików graficznych
 Name:		jhead
 Version:	2.2
-Release:	3.1
+Release:	4
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.sentex.net/~mwandel/jhead/%{name}-%{version}.tar.gz
