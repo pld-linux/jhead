@@ -1,5 +1,5 @@
 Summary:	Extracts the EXIF data from image files
-Summary(pl):	Narzêdzie wyci±gaj±ce dane EXIF z plików graficznych
+Summary(pl.UTF-8):   NarzÄ™dzie wyciÄ…gajÄ…ce dane EXIF z plikÃ³w graficznych
 Name:		jhead
 Version:	2.6
 Release:	1
@@ -22,16 +22,16 @@ header. If you need to add Exif support to a program, this is a simple
 program to cut and paste from. Many projects, including PHP, have
 reused code from this utility.
 
-%description -l pl
-Jhead to sterowane z linii poleceñ narzêdzie do wyci±gania ustawieñ
-aparatu z plików w formacie Exif u¿ywanego przez wiele aparatów
-cyfrowych. Obs³uguje wiele ró¿nych myl±cych sposobów, w jakie mog± byæ
-wyra¿one informacje i wy¶wietla je jako F-stop, szybko¶æ przys³ony
-itp. Umo¿liwia tak¿e zmniejszenie rozmiaru pliku JPEG bez utraty
+%description -l pl.UTF-8
+Jhead to sterowane z linii poleceÅ„ narzÄ™dzie do wyciÄ…gania ustawieÅ„
+aparatu z plikÃ³w w formacie Exif uÅ¼ywanego przez wiele aparatÃ³w
+cyfrowych. ObsÅ‚uguje wiele rÃ³Å¼nych mylÄ…cych sposobÃ³w, w jakie mogÄ… byÄ‡
+wyraÅ¼one informacje i wyÅ›wietla je jako F-stop, szybkoÅ›Ä‡ przysÅ‚ony
+itp. UmoÅ¼liwia takÅ¼e zmniejszenie rozmiaru pliku JPEG bez utraty
 informacji poprzez usuwanie miniaturek wstawianych przez aparaty do
-nag³ówka Exif. Jest to tak¿e prosty program, z którego mo¿na przekleiæ
-kod w celu obs³ugi formatu Exif we w³asnym programie. Wiele projektów,
-w tym PHP, u¿y³o kodu z tego narzêdzia.
+nagÅ‚Ã³wka Exif. Jest to takÅ¼e prosty program, z ktÃ³rego moÅ¼na przekleiÄ‡
+kod w celu obsÅ‚ugi formatu Exif we wÅ‚asnym programie. Wiele projektÃ³w,
+w tym PHP, uÅ¼yÅ‚o kodu z tego narzÄ™dzia.
 
 %prep
 %setup -q
