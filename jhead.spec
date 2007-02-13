@@ -1,5 +1,5 @@
 Summary:	Extracts the EXIF data from image files
-Summary(pl.UTF-8):   Narzędzie wyciągające dane EXIF z plików graficznych
+Summary(pl.UTF-8):	Narzędzie wyciągające dane EXIF z plików graficznych
 Name:		jhead
 Version:	2.6
 Release:	1
