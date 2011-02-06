@@ -1,14 +1,13 @@
 Summary:	Extracts the EXIF data from image files
 Summary(pl.UTF-8):	Narzędzie wyciągające dane EXIF z plików graficznych
 Name:		jhead
-Version:	2.8
-Release:	2
+Version:	2.90
+Release:	1
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.sentex.net/~mwandel/jhead/%{name}-%{version}.tar.gz
-# Source0-md5:	2671b1aa4e223902925212bcf60b8173
+# Source0-md5:	661effa9420bb92cb99ced697c5a177f
 URL:		http://www.sentex.net/~mwandel/jhead/
-Patch0:		%{name}-make.patch
 Requires:	libjpeg-progs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -36,8 +35,6 @@ w tym PHP, użyło kodu z tego narzędzia.
 
 %prep
 %setup -q
-%patch0 -p0
-gzip -d jhead.1.gz
 
 %build
 %{__make} \
